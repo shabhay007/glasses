@@ -1,23 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './components/Navbar';
+import Searchbar from './components/Searchbar';
+import Navbar2 from './components/Navbar2';
+import Footer from './components/Footer'
+import Carousel1 from './components/Carousel1';
+import Carousel2 from './components/Carousel2';
+import Banner1 from './components/Banner1';
+import Eyeglassesmain from './components/Eyeglassesmain';
+import Banner2 from './components/Banner2';
+import Sunglasses_main from './components/Sunglasses_main';
+import Banner3 from './components/Banner3';
+import Kids_glass_Row from './components/Kids_glass_Row';
+import Youtube_content from './components/Youtube_content';
+import Four_sq_banner from './components/Four_sq_banner';
 
-function App() {
+function App() 
+{
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Searchbar />
+      <Navbar2 />
+      <Carousel1 />
+      <Carousel2 />
+      <Banner1 />
+      <Eyeglassesmain />
+      <Banner2 />
+      <Sunglasses_main />
+      <Banner3 />
+      <Kids_glass_Row />
+      <Four_sq_banner />
+      <Youtube_content />
+      <Footer />
+      
     </div>
   );
 }

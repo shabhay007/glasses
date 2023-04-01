@@ -1,0 +1,43 @@
+.eyeglass_crousel{
+    margin: auto;
+    /* display: flex; */
+    height: 150px;
+    width: 700px;
+    background-color: aliceblue;
+}
+
+.eyecrousel{
+    /* border-style: dotted; */
+}
+
+.showname{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(214, 228, 240);
+    width: 700px;
+    margin: auto;
+}
+
+.hr{
+    width: 700px;
+    margin: auto;
+    opacity: 0.4;
+}
+.buytoguide{
+    /* border-style: solid; */
+    padding-top: 20px;
+    width: 100px;
+    margin: auto;
+    height: 80px;
+    width: 80px;
+    /* align-items: center; */
+}
+.buytoguide2{
+    /* border-style: solid; */
+    text-align: center;
+}
+
+/* .buytoguide img{
+    height: 80px;
+    width: 80px;
+} */

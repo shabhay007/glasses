@@ -1,0 +1,37 @@
+.component5{
+    height: 150px;
+    background-color: rgb(13, 129, 129);
+    display: flex;
+}
+
+.carousel2{
+    margin: auto;
+    width: 700px;
+    background-color: aliceblue;
+    /* border-style: solid; */
+}
+.carousel_name{
+    width: 300px;
+    /* border-style: solid; */
+    font-size: 20px;
+    text-align: center;
+}
+
+.eye{
+    font-size: 40px;
+}
+.buytocrousel{
+    /* border-style: solid; */
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    /* width: 100px; */
+    /* padding-top: 20px; */
+
+}
+
+.cnames{
+    margin: auto;
+    /* border-style: solid; */
+    text-align: center;
+}

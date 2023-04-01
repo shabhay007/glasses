@@ -1,0 +1,42 @@
+.navbar2{
+    display: flex;
+    height: 30px;
+}
+
+.sub-navbar{
+    font-size: 12px;
+    background-color: skyblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 700px;
+    /* border-style: solid; */
+}
+
+.buttons{
+    right: 0;
+    position: absolute;
+    /* border-style: solid; */
+}
+
+.separate_button{
+    margin-right: 2px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    border-radius: 5px;
+}
+
+.threeD{
+    font-size: 8px;
+    height: 30px;
+    background-color: rgb(158, 158, 226);
+}
+
+.blu{
+    background-color: rgb(192, 224, 224);
+}
+
+.gold{
+    background-color: rgb(190, 157, 157);
+}

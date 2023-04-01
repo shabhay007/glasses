@@ -1,0 +1,29 @@
+.ytcontainer{
+    height: 300px;
+    background-color: #fff092;
+}
+
+.customer{
+    font-size: 30px;
+    height: 60px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: futurastd-medium;
+    font-weight: 400!important;
+}
+
+.putimage{
+    display: flex;
+    border-style: solid;
+    height: 234px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.ytcont{
+    height: 180px;
+    width: 280px;
+    border-style: solid;
+}

@@ -1,0 +1,17 @@
+/* .foursqbanner{
+    width: 1200px;
+    display: flex;
+
+} */
+
+.uppertwo{
+    display: flex;
+    justify-content: space-around;
+}
+
+.lowertwo{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+

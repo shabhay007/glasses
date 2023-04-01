@@ -1,0 +1,27 @@
+.carousel{
+    height: 130px;
+    background-color: rgb(209, 243, 243);
+    width: 100%;
+    margin: auto;
+    padding: 25px 0 0 0;
+    /* border-style: solid; */
+}
+
+.carousel1_buytoguide img{
+    /* border-style: solid; */
+    margin: auto;
+    
+}
+
+.asdfg{
+    width: 60px;
+    /* border-style: solid; */
+    text-align: center;
+
+}
+.kdjfskdjk{
+    width: 84px;
+    height: 84px;
+    border: 0px solid orange;
+    border-radius: 50%;
+}

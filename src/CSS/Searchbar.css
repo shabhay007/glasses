@@ -1,0 +1,28 @@
+.Searchbar{
+    height: 70px;
+    align-items: center;
+    display: flex;
+}
+
+.phone{
+    width: 350px;
+    padding-left: 10px;
+}
+
+.logo{
+    /* width: 200px; */
+    /* border-style: solid; */
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.search{
+    right: 0;
+    position: absolute;
+    width: 300px;
+}
+
+.form-control{
+    height: 30px;
+    width: 280px;
+}
