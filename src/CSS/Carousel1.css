@@ -1,6 +1,6 @@
 .carousel{
     height: 130px;
-    background-color: rgb(209, 243, 243);
+    /* background-color: rgb(209, 243, 243); */
     width: 100%;
     margin: auto;
     padding: 25px 0 0 0;
@@ -20,8 +20,8 @@
 
 }
 .kdjfskdjk{
-    width: 84px;
-    height: 84px;
-    border: 0px solid orange;
+    width: 74px;
+    height: 74px;
+    /* border: 0px solid orange; */
     border-radius: 50%;
 }

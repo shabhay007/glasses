@@ -1,0 +1,52 @@
+.john{
+    /* border-style: solid; */
+    display: flex;
+    height: 100px;
+    background-color: rgb(210, 204, 204);
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logoakk{
+    width: 27%;
+    padding-left: 2%;
+}
+
+.names{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+}
+.link{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: black;
+}
+
+.icons{
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}
+
+
+.seccont{
+    /* border-style: solid; */
+
+    height: 100px;
+}
+.e{
+    /* border-style: solid; */
+
+    margin: 1% 1% 5px 1%;
+    font-size: 28px;
+    font-weight: 600;
+}
+.p{
+    /* border-style: solid; */
+
+    margin: 0 1%;
+    font-size: 20px;
+    font-weight: 400;
+}

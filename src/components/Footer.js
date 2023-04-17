@@ -5,13 +5,18 @@ import location from '../Assets/Images/location.svg';
 import phone_icon from '../Assets/Images/phone_icon.svg';
 import message from '../Assets/Images/message.svg';
 import whatsapp from '../Assets/Images/whatsapp.svg';
+import instagram from '../Assets/Images/instagram.svg'
+import linkedin from '../Assets/Images/linkedin.svg'
+import facebook from '../Assets/Images/facebook.svg'
+import twitter from '../Assets/Images/twitter.svg'
 
 const Footer = () => {
     return (
         <div className='footer'>
             <div className='footer1'>
                 <div className='footer-logo'>
-                    <img className='akku' src={logo} height={'30px'} width={'350px'}></img>
+                    {/* <img className='akku' src={logo} height={'30px'} width={'350px'}></img> */}
+                    <div className="myabout"><strong>ABOUT</strong></div>
                     <div className='footer-content'>
                         <div className='content'>
                             Order Eyeglass and Sunglass Round –Square-Geomantic
@@ -37,7 +42,7 @@ const Footer = () => {
                         <div className='fontchanges'>Shipping & Delivery</div>
                     </div>
                 </div>
-                <div>
+                <div className='thirdcontact'>
                     <div className='sub-footer-contact'><strong>CONTACT US</strong></div>
                     <div className='footer-contact'>
                         <div className='location'>
@@ -67,12 +72,17 @@ const Footer = () => {
                     </div>
                 </div>
             </div>
+            {/* <hr className='hrtag' /> */}
+            <div className='hrtag'></div>
             <div className='sub-footer'>
-                <div>&copy;COPYRIGHT ALL RIGHTS RESERVED 2018-2022.
+                <div className='copyright'>&copy;COPYRIGHT ALL RIGHTS RESERVED 2018-2022.
                     DESIGNED & DEVELOPED BY <a className='softication' href='https://www.softication.com/' target={'_blank'}> SOFTICATION TECHNOLOGY </a>
                 </div>
-                <div>
-                    <i class="fa fa-instagram" id="insta" aria-hidden="true"></i>
+                <div className='communication'>
+                    <a href="https://bit.ly/3cvkUEa" target='_blank'><img src={instagram} height={'20px'} width={'20px'}/></a>
+                    <a href="https://www.facebook.com/akkukachasma/" target='_blank'><img src={facebook} height={'20px'} width={'20px'}/></a>
+                    <a href="javascript:void(0)" target='_blank'><img src={linkedin} height={'20px'} width={'20px'}/></a>
+                    <a href="https://twitter.com/" target='_blank'><img src={twitter} height={'20px'} width={'20px'}/></a>
                 </div>
             </div>
         </div>

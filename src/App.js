@@ -14,11 +14,20 @@ import Kids_glass_Row from './components/Kids_glass_Row';
 import Youtube_content from './components/Youtube_content';
 import Four_sq_banner from './components/Four_sq_banner';
 
+
+/* imported files for second page */
+import Nav from './Pages/ComponentsSecondPage/Nav'; 
+import Slider  from "./Pages/ComponentsSecondPage/Slider";
+import SwiperCardMain from './Pages/ComponentsSecondPage/SwiperCardMain';
+
+// Page 3 components  
+import Page3Nav from './Page3/Page3Component/Page3Nav';
+
 function App() 
 {
   return (
     <div className="App">
-      <Navbar />
+      {/* <Navbar />
       <Searchbar />
       <Navbar2 />
       <Carousel1 />
@@ -31,7 +40,17 @@ function App()
       <Kids_glass_Row />
       <Four_sq_banner />
       <Youtube_content />
-      <Footer />
+      <Footer /> */}
+
+
+      {/* <Nav />
+      <Slider/>
+      <SwiperCardMain /> */}
+
+
+      {/* Page 3 */}
+
+      <Page3Nav />
       
     </div>
   );

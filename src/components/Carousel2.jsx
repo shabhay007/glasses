@@ -1,20 +1,21 @@
 import React from 'react';
+import Card_Carousel2 from './Card_Carousel2';
 import '../CSS/Carousel2.css';
-import Slider from "react-slick";
-import eyeglasses from '../Assets/Images/eyeglasses.png';
-
 
 const Carousel2 = () => {
-    const settings = {
-        dots: false,
-        infinite: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        speed: 2000,
-        autoplaySpeed: 2000,
-        cssEase: "linear"
-    };
+
+    const btnpressprev = () => {
+        let box = document.querySelector('.product-cont');
+        let width = box.clientWidth;
+        box.scrollLeft = box.scrollLeft - width;
+    }
+
+    const btnpressnext = () => {
+        let box = document.querySelector('.product-cont');
+        let width = box.clientWidth;
+        box.scrollLeft = box.scrollLeft + width;
+    }
+
     return (
         <div className='component5'>
             <div className='carousel_name'>
@@ -22,26 +23,20 @@ const Carousel2 = () => {
                 <div className="trend">TREND</div>
             </div>
             <div className='carousel2'>
-                <Slider {...settings}>
-                    <div>
-                        <div className='buytocrousel'>
-                            <img src={eyeglasses} height={'80px'} width={'80px'}></img>
-                        </div>
-                        <div className='cnames'>BUY TO GUIDE</div>
-                    </div>
-                    <div>
-                        <div className='buytocrousel'>
-                            <img src={eyeglasses} height={'80px'} width={'80px'}></img>
-                        </div>
-                        <div className='cnames'>SUNGLASSES</div>
-                    </div>
-                    <div>
-                        <div className='buytocrousel'>
-                            <img src={eyeglasses} height={'80px'} width={'80px'}></img>
-                        </div>
-                        <div className='cnames'>BUY TO GUIDE</div>
-                    </div>
-                </Slider>
+                <button className="previousbtn" onClick={btnpressprev}><p>&lt;</p></button>
+                <button className="nextbtn" onClick={btnpressnext}><p>&gt;</p></button>
+
+                <div className="product-cont">
+                    <Card_Carousel2 cdno='1'/>
+                    <Card_Carousel2 cdno='2'/>
+                    <Card_Carousel2 cdno='3'/>
+                    <Card_Carousel2 cdno='4'/>
+                    <Card_Carousel2 cdno='5'/>
+                    <Card_Carousel2 cdno='6'/>
+                    <Card_Carousel2 cdno='7'/>
+                    <Card_Carousel2 cdno='8'/>
+                    <Card_Carousel2 cdno='9'/>
+                </div>
             </div>
         </div>
     )

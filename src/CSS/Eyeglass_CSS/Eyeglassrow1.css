@@ -1,39 +1,82 @@
-.eyeglass_crousel{
-    margin: auto;
-    /* display: flex; */
-    height: 150px;
-    width: 700px;
-    background-color: aliceblue;
+.product-carousel{
+  /* border-style: solid; */
+
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
 }
 
-.showname{
-    display: flex;
-    justify-content: center;
-    background-color: rgb(214, 228, 240);
-    width: 700px;
-    margin: auto;
+.product-container{
+  /* border-style: solid; */
+
+  margin: auto;
+  padding: 0 5px;
+  display: flex;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  width: 1050px;
 }
 
-.hr{
-    width: 700px;
-    margin: auto;
-    opacity: 0.4;
-}
-.buytoguide{
-    /* border-style: solid; */
-    padding-top: 20px;
-    width: 100px;
-    margin: auto;
-    height: 80px;
-    width: 80px;
-    /* align-items: center; */
-}
-.buytoguide2{
-    /* border-style: solid; */
-    text-align: center;
+.pre-btn,.next-btn{
+  border: none;
+  width: 50px;
+  height: 50%;
+  position: absolute;
+  top: 0;
+  display: flex;
+  margin-top: 6%;
+  justify-content: center;
+  /* background-color: rgba(0, 0, 0, 0); */
 }
 
-/* .buytoguide img{
-    height: 80px;
-    width: 80px;
-} */
+.pre-btn{
+  left: 50px;
+}
+
+.next-btn{
+  right: 50px;
+}
+
+.next-btn p, .pre-btn p{
+  font-size: 50px;
+  /* background-color: rgba(250, 249, 249, 0.434); */
+  /* box-shadow: 0px 0px 10px 1px black; */
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.347);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.eyeglass{
+  /* border-style: solid; */
+
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bestseller{
+  font-size: 20px;
+}
+
+.glasses{
+  font-size: 30px;
+}
+
+.explorebtn{
+  /* border-style: solid; */
+
+  margin-top: 25px;
+  text-align: center;
+}
+.expbtn{
+  border: none;
+  background-color: #56b7c3;
+  color: white;
+  font-weight: 700;
+  height: 30px;
+  width: 150px;
+  cursor: pointer;
+}

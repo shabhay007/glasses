@@ -25,7 +25,7 @@ const Carousel1 = () => {
                 <Slider {...settings}>
                     <div className='asdfg' >
                         <div className='carousel1_buytoguide'>
-                            <img src={buy_to_guide} height={'80px'} width={'80px'}></img>
+                            <img src={buy_to_guide} height={'80px'} width={'70px'}></img>
                         </div>
                         <div>BUY TO GUIDE</div>
                     </div>

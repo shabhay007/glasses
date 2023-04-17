@@ -1,0 +1,52 @@
+.card_carousel2{
+    /* border-style: solid; */
+    margin: 10px;
+}
+.mainCarouselImage{
+    width: 100%;
+    height: 140px;
+    border-radius: 10px;
+}
+
+.pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mcard{
+    height: 140px;
+    /* background-color: rgb(133, 66, 66); */
+    /* color: white; */
+    /* border: 3px solid rgb(133,66,66); */
+    border-radius: 12px;
+
+    /* border-style: solid; */
+}
+
+.item-names{
+    /* border-style: solid; */
+
+    margin-top: 5px;
+    font-size: 18px;
+    width: 215px;
+    text-align: center;
+}
+
+.addin-cart{
+    /* border-style: solid; */
+
+    margin-top: 5px;
+    display: flex;
+    height: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.addin-btn{
+    font-size: 14px;
+    height: 30px;
+    background-color: #56b7c3;
+    border-radius: 4px;
+    border: none;
+}

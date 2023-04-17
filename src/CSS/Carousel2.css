@@ -1,37 +1,102 @@
-.component5{
-    height: 150px;
-    background-color: rgb(13, 129, 129);
+.component5 {
+    height: 250px;
+    /* background-color: rgb(13, 129, 129); */
     display: flex;
+
+    /* border-style: solid; */
 }
 
-.carousel2{
+
+.carousel_name {
+    width: 30%;
+    /* border-style: solid; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eye {
+    font-size: 50px;
+}
+.trend {
+    font-size: 35px;
+}
+
+
+
+.carousel2 {
+    /* border-style: solid; */
+
+    width: 70%;
     margin: auto;
-    width: 700px;
-    background-color: aliceblue;
-    /* border-style: solid; */
-}
-.carousel_name{
-    width: 300px;
-    /* border-style: solid; */
-    font-size: 20px;
-    text-align: center;
+    /* background-color: rgb(202, 212, 221); */
 }
 
-.eye{
-    font-size: 40px;
-}
-.buytocrousel{
-    /* border-style: solid; */
+/* .buytocrousel {
+    border-style: solid;
     height: 80px;
     width: 80px;
     margin: auto;
-    /* width: 100px; */
-    /* padding-top: 20px; */
+    width: 100px;
+    padding-top: 20px;
 
+} */
+
+/* .cnames {
+    margin: auto;
+    border-style: solid;
+    text-align: center;
+} */
+
+
+/* .product-carousel {
+    border-style: solid;
+
+    position: relative;
+    overflow: hidden;
+    padding: 26px;
+} */
+
+.product-cont {
+    /* border-style: solid; */
+
+    margin: auto;
+    display: flex;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    width: 80%;
 }
 
-.cnames{
-    margin: auto;
-    /* border-style: solid; */
-    text-align: center;
+.previousbtn,
+.nextbtn {
+    border: none;
+    width: 50px;
+    /* height: 50%; */
+    position: absolute;
+    /* top: 0; */
+    display: flex;
+    margin-top: 3%;
+    justify-content: center;
+    /* background-color: rgba(0, 0, 0, 0); */
+}
+
+.previousbtn {
+    left: 32%;
+}
+
+.nextbtn {
+    right: 2%;
+}
+
+.nextbtn p,
+.previousbtn p {
+    font-size: 50px;
+    /* background-color: rgba(250, 249, 249, 0.434); */
+    /* box-shadow: 0px 0px 10px 1px black; */
+    border-radius: 10px;
+    /* color: rgba(0, 0, 0, 0.347); */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
 }
